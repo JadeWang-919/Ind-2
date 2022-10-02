@@ -1,0 +1,289 @@
+/* The selectors are ordered based on the element's appearance on each page. General selectors are put at the top. */
+
+/*****************************/
+/* GENERAL*/
+/*****************************/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  color: #222;
+  font-family: "Roboto", sans-serif;  /* For the main content, use a font similar to the in-game text font */
+  font-size: 1.8rem;
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: center;
+  overflow-y: hidden;
+}
+
+h1 {
+  font-family: "IM Fell English", serif;  /* For h1 heading, use a font similar to the logo font of the game */
+  font-size: 4.4rem;
+  margin-bottom: 4.8rem;
+}
+
+h2 {
+  font-size: 2.6rem;
+  margin-bottom: 2.2rem;
+}
+
+/**********************************************/
+/* HEADER */
+/**********************************************/
+
+/* STICKY HEADER */
+.header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10rem;
+  padding: 0 4rem 0 6rem;
+  background-color: rgb(82, 71, 71);
+  z-index: 999;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.logo {
+  height: 7rem;
+  float: left;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  float: right;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.4rem 2rem;
+  color: #fff;
+  font-family: "IM Fell English", serif;
+  font-size: 2.4rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  text-decoration: underline;
+}
+
+/* MOBILE HAMBURGER MENU */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+  float: right;
+}
+
+.icon-mobile-nav {
+  height: 6rem;
+  width: 6rem;
+  color: #fff;
+}
+
+/**********************************************/
+/* VIDEO */
+/**********************************************/
+
+#video {
+  width: 70%;
+  height: 52rem;
+  margin-top: 14rem;
+}
+
+/**********************************************/
+/* INTRODUCTION */
+/**********************************************/
+
+.introduction {
+  width: 80%;
+  margin: 14rem auto;
+}
+
+.introduction-box {
+  display: flex;
+  justify-content: space-between;
+  height: 40rem;
+}
+
+.intro-text-btn {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro-text {
+  text-align: left;
+  line-height: 1.8;
+}
+
+.buy-btn:link,
+.buy-btn:visited {
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  width: 80%;
+  padding: 2rem 2.8rem;
+  border-radius: 20rem;
+  background-color: #5aaf5c;
+  font-size: 2.6rem;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.buy-btn:hover,
+.buy-btn:active {
+  background-color: #2d782f;
+}
+
+.title-img {
+  width: 50%;
+  text-align: right;
+}
+
+#title {
+  height: 100%;
+  border-radius: 0.4rem;
+}
+
+/**********************************************/
+/* FEATURES */
+/**********************************************/
+
+.features {
+  width: 80%;
+  margin: 14rem auto;
+}
+
+.feature-box1,
+.feature-box2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-box1 {
+  margin-bottom: 3.2rem;
+}
+
+.features h2{
+  margin-bottom: 1rem;
+}
+
+.feature-text1 {
+  text-align: left;
+  width: 50%;
+  margin-bottom: 4rem;
+  line-height: 1.6;
+}
+
+.feature-text2 {
+  text-align: left;
+  width: 50%;
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+.feature-img1,
+.feature-img2 {
+  width: 45%;
+}
+
+.feature-img1 {
+  order: -1;  /* Switch the order of img and text in feature-box1 */
+}
+
+.feature-img {
+  width: 100%;
+  border-radius: 0.4rem;
+}
+
+/**********************************************/
+/* CHARACTERS */
+/**********************************************/
+
+.characters {
+  margin: 14rem auto;
+}
+
+.character-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  margin: 0 auto;
+  gap: 4.8rem;
+}
+
+.character {
+  background: linear-gradient(#1f5864, #64b8aa);
+  padding-bottom: 2.4rem;
+  border-radius: 2rem;
+}
+
+.character-img {
+  width: 100%;
+}
+
+.character-text {
+  text-align: center;
+  line-height: 1.4;
+  color: #fff;
+}
+
+.character-text h2 {
+  margin: 1rem auto;
+}
+
+.character-text p {
+  font-size: 1.6rem;
+  width: 92%;
+  margin: 0 auto;
+  font-weight: 300;
+}
+
+/**********************************************/
+/* FOOTER */
+/**********************************************/
+
+footer {
+  background-color: rgb(45, 43, 43);
+  padding: 8rem;
+}
+
+footer h2 {
+  color: #fff;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 2.8rem;
+  justify-content: center;
+}
+
+footer img {
+  width: 6rem;
+  border-radius: 0.6rem;
+}

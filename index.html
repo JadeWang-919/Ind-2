@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is a website for The Legend of Zelda: Breath of the Wild"
+    />
+
+    <!-- This is css file for the style of selectors -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- This is css file for media queries -->
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <!-- Two fonts from google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>The Legend of Zelda: Breath of the Wild"</title>
+  </head>
+
+  <body>
+    <!-- This is the header, which includes logo and nagivation bar -->
+    <header class="header">
+      <!-- logo -->
+      <a href="index.html">
+        <img class="logo" alt="BOTW Logo" src="img/logo.png" />
+      </a>
+      <!-- navigation bar -->
+      <nav>
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#">Home</a></li>
+          <li><a class="nav-link" href="#">About</a></li>
+          <li><a class="nav-link" href="#">Story</a></li>
+          <li><a class="nav-link" href="#">Characters</a></li>
+          <li><a class="nav-link" href="#">Buy Now</a></li>
+        </ul>
+      </nav>
+
+      <!-- This is the hamburger menu icon for mobile screen -->
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <!-- This is the video section-->
+      <iframe
+        id="video"
+        src="https://www.youtube.com/embed/zw47_q9wbBE"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <!-- This is the introduction section -->
+      <div class="introduction">
+        <h1>Introduction</h1>
+        <div class="introduction-box">
+          <div class="intro-text-btn">
+            <p class="intro-text">
+              The Legend of Zelda: Breath of the Wild is a 2017 action-adventure
+              game developed and published by Nintendo. The game is an
+              installment of The Legend of Zelda series and is set at the end of
+              its timeline. The player controls an amnesiac Link, who awakens
+              from a hundred-year slumber, and attempts to regain his memories
+              and prevent the destruction of Hyrule by Calamity Ganon. The world
+              in this game features minimal structure and is designed to
+              encourage exploration and experimentation, and the main story
+              quest can be completed in a nonlinear fashion.
+            </p>
+            <!-- This is a button telling users to buy the game. It's important to get users buy the game, so I put it in the front position of the home page -->
+            <a
+              class="buy-btn"
+              href="https://www.zelda.com/breath-of-the-wild/buy-now"
+              >Available Now on Nintendo eShop</a
+            >
+          </div>
+          <div class="title-img">
+            <img id="title" src="img/title.jpg" alt="BOTW title" />
+          </div>
+        </div>
+      </div>
+      <!-- This is the features section -->
+      <div class="features">
+        <h1>Features</h1>
+        <!-- This is a feature box, which contains fetaure-text and feature-img -->
+        <div class="feature-box1">
+          <div class="feature-text1">
+            <h2>Discover the vast world around you</h2>
+            <p>
+              Explore the landscape of Hyrule any way you like. Climb up towers
+              and mountain peaks in search of new destinations, then set your
+              own path and plunge into the wilderness. With this much real
+              estate to explore, Link will need some help in his travels.
+              Luckily, there are plenty of transportation options to unlock.
+              Link can cover a lot of ground quickly on horseback, navigate the
+              waters of Hyrule on a raft, or hit the slopes and surf down a
+              mountain on his shield. And the sky's the limit when Links soars
+              through the sky with his paraglider.
+            </p>
+          </div>
+          <div class="feature-img1">
+            <img
+              class="feature-img"
+              src="img/feature1.jpg"
+              alt="BOTW feature"
+            />
+          </div>
+        </div>
+        <div class="feature-box2">
+          <div class="feature-text2">
+            <h2>Fight for your Kingdom</h2>
+            <p>
+              When Link first wakes up, he's unarmed and defenseless. Relying on
+              his wits and resourcefulness, though, he can acquire over 180
+              different weapons to use in combat. These items will wear out over
+              time, though, so he must always be on the lookout for more.
+              There's more to fighting than just weapons, of course. Link will
+              also have to learn a variety of different attacks—like high-flying
+              bow shots and making use of explosives—in order to prevail.
+            </p>
+          </div>
+          <div class="feature-img2">
+            <img
+              class="feature-img"
+              src="img/feature2.jpg"
+              alt="BOTW feature"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- This is the characters section -->
+      <div class="characters">
+        <h1>Characters</h1>
+        <!-- Character-list contains all characters -->
+        <div class="character-list">
+          <!-- Character contains character-imgbox and character-text -->
+          <div class="character">
+            <div class="character-imgbox">
+              <img class="character-img" src="img/Link.jpg" alt="Link" />
+            </div>
+            <div class="character-text">
+              <h2>Link</h2>
+              <p>
+                Link is the main character and protagonist of the The Legend of
+                Zelda series, usually depicted as an ordinary boy who becomes a
+                legendary hero by saving the world through feats of courage.
+              </p>
+            </div>
+          </div>
+          <div class="character">
+            <div class="character-imgbox">
+              <img class="character-img" src="img/Zelda.jpg" alt="Zelda" />
+            </div>
+            <div class="character-text">
+              <h2>Zelda</h2>
+              <p>
+                In Breath of the Wild, Zelda is not only the princess of Hyrule,
+                she is also an aspiring scholar who is very curious. She is also
+                the leader of the Champions of Hyrule.
+              </p>
+            </div>
+          </div>
+          <div class="character">
+            <div class="character-imgbox">
+              <img class="character-img" src="img/Mipha.jpg" alt="Mipha" />
+            </div>
+            <div class="character-text">
+              <h2>Mipha</h2>
+              <p>
+                The Princess of the Zora, a friend of Link, and one of the
+                Champions. She is described as being introverted and has a gift
+                for healing.
+              </p>
+            </div>
+          </div>
+          <div class="character">
+            <div class="character-imgbox">
+              <img class="character-img" src="img/Daruk.jpg" alt="Daruk" />
+            </div>
+            <div class="character-text">
+              <h2>Daruk</h2>
+              <p>
+                The warrior Goron Champion, tasked with piloting the Divine
+                Beasts in the war against Calamity Ganon 100 years ago. He is
+                generally calm, but becomes wildly excitable in battle.
+              </p>
+            </div>
+          </div>
+          <div class="character">
+            <div class="character-imgbox">
+              <img class="character-img" src="img/Urbosa.jpg" alt="Urbosa" />
+            </div>
+            <div class="character-text">
+              <h2>Urbosa</h2>
+              <p>
+                A Gerudo Champion who pilots the Divine Beast Vah Naboris. She
+                is capable of manipulating lightning using her technique,
+                Urbosa's Fury.
+              </p>
+            </div>
+          </div>
+          <div class="character">
+            <div class="character-imgbox">
+              <img class="character-img" src="img/Revali.jpg" alt="Revali" />
+            </div>
+            <div class="character-text">
+              <h2>Revali</h2>
+              <p>
+                The Champion of the Rito tribe. Known as the most skilled archer
+                of all the Rito. Revali is known for his arrogant, sardonic
+                outward personality.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- This is the footer -->
+    <footer>
+      <h2>Follow Nintendo</h2>
+      <div class="footer-icons">
+        <a target="_blank" href="https://www.facebook.com/Nintendo">
+          <img
+            class="social-icon"
+            src="img/logo-facebook.svg"
+            alt="facebook icon"
+        /></a>
+        <a target="_blank" href="https://twitter.com/NintendoAmerica">
+          <img
+            class="social-icon"
+            src="img/logo-twitter.svg"
+            alt="twitter icon"
+        /></a>
+        <a target="_blank" href="https://www.youtube.com/nintendo">
+          <img
+            class="social-icon"
+            src="img/logo-youtube.svg"
+            alt="youtube icon"
+        /></a>
+        <a target="_blank" href="https://www.instagram.com/nintendo/">
+          <img
+            class="social-icon"
+            src="img/logo-instagram.svg"
+            alt="instagram icon"
+        /></a>
+      </div>
+    </footer>
+
+    <!-- Ionicon installation -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
