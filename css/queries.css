@@ -5,7 +5,8 @@
   }
 
   #video {
-    height: 54rem;
+    width: 80%;
+    height: 56rem;
   }
 
   .buy-btn:link,
@@ -25,8 +26,8 @@
   }
 
   #video {
-    width: 80%;
-    height: 49.2rem;
+    width: 90%;
+    height: 48rem;
   }
 
   .introduction {
@@ -84,8 +85,7 @@
   }
 
   #video {
-    width: 90%;
-    height: 48.5rem;
+    height: 39.3rem;
   }
 
   .introduction-box {
@@ -123,12 +123,11 @@
     flex-direction: column;
   }
 
-  .feature-text1 {
-    text-align: center;
-    width: 90%;
-    margin: 2rem auto 4rem auto;
+  .feature-box1 {
+    margin-bottom: 5.4rem;
   }
 
+  .feature-text1,
   .feature-text2 {
     text-align: center;
     width: 90%;
